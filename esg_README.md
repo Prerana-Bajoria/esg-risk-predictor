@@ -1,4 +1,4 @@
-# 🌱 ESG Risk Score Predictor — S&P 500
+# 🌱 ESG Risk Score Predictor - S&P 500
 
 A machine learning project that predicts the **Total ESG Risk Score** of S&P 500 companies using financial and operational features, with **SHAP explainability** to identify the key drivers of ESG risk.
 
@@ -6,13 +6,13 @@ A machine learning project that predicts the **Total ESG Risk Score** of S&P 500
 
 ## 🔍 Problem Statement
 
-ESG (Environmental, Social, and Governance) scores are increasingly used by investors, analysts, and regulators to assess corporate sustainability and risk. This project builds a predictive model to estimate a company's ESG risk score and explains *why* certain companies score higher or lower — making the model auditable and actionable.
+ESG (Environmental, Social, and Governance) scores are increasingly used by investors, analysts, and regulators to assess corporate sustainability and risk. This project builds a predictive model to estimate a company's ESG risk score and explains *why* certain companies score higher or lower - making the model auditable and actionable.
 
 ---
 
 ## 📊 Dataset
 
-**S&P 500 ESG Risk Ratings** — real data from Kaggle  
+**S&P 500 ESG Risk Ratings** - real data from Kaggle  
 503 companies across 11 sectors including Technology, Healthcare, Financials, and Industrials.
 
 Source: [Kaggle — S&P 500 ESG Risk Ratings](https://www.kaggle.com/datasets/pritish509/s-and-p-500-esg-risk-ratings)
@@ -31,7 +31,7 @@ Source: [Kaggle — S&P 500 ESG Risk Ratings](https://www.kaggle.com/datasets/pr
 | `Sector` | Industry sector (encoded) |
 | `Controversy Level` | Categorical controversy rating (encoded) |
 
-**Target:** `Total ESG Risk score` — lower is better
+**Target:** `Total ESG Risk score` - lower is better
 
 ---
 
@@ -47,7 +47,7 @@ Source: [Kaggle — S&P 500 ESG Risk Ratings](https://www.kaggle.com/datasets/pr
 
 ## 🔎 SHAP Explainability
 
-Unlike a black-box model, this project uses **SHAP (SHapley Additive exPlanations)** to explain individual predictions — identifying which features push the ESG score up or down for each company.
+Unlike a black-box model, this project uses **SHAP (SHapley Additive exPlanations)** to explain individual predictions - identifying which features push the ESG score up or down for each company.
 
 This is critical in financial services where model decisions need to be **transparent and auditable**.
 
@@ -93,9 +93,9 @@ python main.py
 ## 📈 Output
 
 - Model metrics: MAE, RMSE, R² for all 3 models
-- `actual_vs_predicted.png` — comparison across all models
-- `feature_importance.png` — Random Forest feature importance
-- `shap_summary.png` — SHAP explainability plot
+- `actual_vs_predicted.png` - comparison across all models
+- `feature_importance.png` - Random Forest feature importance
+- `shap_summary.png` - SHAP explainability plot
 - Custom prediction for a sample tech company
 
 ---
