@@ -110,9 +110,3 @@ python main.py
 - Matplotlib
 
 ---
-
-## 👩‍💻 Author
-
-**Prerana Bajoria**  
-Associate Application Engineer II | o9 Solutions  
-[LinkedIn](https://linkedin.com/in/prerana-bajoria) | [GitHub](https://github.com/your-username)
